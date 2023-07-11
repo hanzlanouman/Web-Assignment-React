@@ -6,7 +6,7 @@ const MenuCard = (props) => {
       <div id='menu-img-1' class='menu-img'>
         <img src={img} alt='menu-img' />
       </div>
-      <h1 >{name}</h1>
+      <h1>{name}</h1>
       <ul>
         <li>Dish A</li>
         <li>Dish B</li>
@@ -14,7 +14,7 @@ const MenuCard = (props) => {
         <li>Dessert A</li>
       </ul>
       <p>{description}</p>
-      <button>Buy {price}</button>
+      <button>Buy {price}$</button>
     </article>
   );
 };
